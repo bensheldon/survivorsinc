@@ -54,14 +54,14 @@ del {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}	
+}
 /* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
    j.mp/bestclearfix */
 .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
 .clearfix:after { clear: both; }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
-	
+
 
 /************** General Styles *****************/
 a{ text-decoration:underline;}
@@ -180,10 +180,17 @@ img {
 	float: left;
 }
 
+.article__header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
 .column {
 	float: left;
 	width: 48%;
 	padding: 0 1%;
+	text-align: justify;
+	font-weight: normal;
 }
 
 #footer {
@@ -197,7 +204,7 @@ img {
 		width: 100%;
 		margin-bottom: 10px;
 	}
-	
+
 	#content,
 	#sidebar,
 	.column {
@@ -208,5 +215,5 @@ img {
 		margin: 0;
 	}
 }
-	
+
 }
